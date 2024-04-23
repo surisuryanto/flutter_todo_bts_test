@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_todo_test/core.dart';
-import '../view/register_view.dart';
 
 class RegisterController extends State<RegisterView> {
   static late RegisterController instance;

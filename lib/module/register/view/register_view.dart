@@ -69,6 +69,21 @@ class RegisterView extends StatefulWidget {
                 child: const Text("register",
                     style: TextStyle(color: Colors.white)),
               ),
+              const SizedBox(
+                height: 10.0,
+              ),
+              RichText(
+                text: const TextSpan(
+                    text: "sudah punya akun?",
+                    style: TextStyle(color: Colors.black, fontSize: 18),
+                    children: <TextSpan>[
+                      TextSpan(
+                        text: 'Login',
+                        style:
+                            TextStyle(color: Colors.blueAccent, fontSize: 18),
+                      ),
+                    ]),
+              ),
             ],
           ),
         ),
